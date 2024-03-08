@@ -1,5 +1,5 @@
 let numerosJaUtilizados = [];
-let numeroLimite = 70;
+let numeroLimite = 80;
 let numeroSecreto = 0
 let tentativas = 0;
 
@@ -8,7 +8,7 @@ function novoJogo() {
     tentativas = 1;
     document.getElementById('reiniciar').setAttribute('disabled', true);
     exibirTextoNaTela('h1', 'Jogo do Número Secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 70');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 80');
     limparCampo();
 }
 
